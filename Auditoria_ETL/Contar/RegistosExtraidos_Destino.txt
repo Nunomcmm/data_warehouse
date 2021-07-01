@@ -1,0 +1,811 @@
+Álgebra Linear e Geometria Analítica,ALGA,CB,1,1,,6.0,0,CLOSED
+Análise Matemática I,AM I,CB,1,1,,6.0,0,CLOSED
+Desenho Técnico I,DT I,CE,1,1,,5.0,0,CLOSED
+Inglês Técnico,Ing Tec,MC,1,1,,3.0,0,CLOSED
+Introdução à Informática,IP,MC,1,1,,4.0,0,CLOSED
+Mecânica I,Mec I,CB,1,1,,6.0,0,CLOSED
+Análise Matemática II,AM II,CB,1,2,,6.0,0,CLOSED
+Desenho Técnico II,DT II,CE,1,2,,5.0,0,CLOSED
+Geologia,Geo,CB,1,2,,4.0,0,CLOSED
+Mecânica II,Mec II,CE,1,2,,6.0,0,CLOSED
+Probabilidades e Estatística,PE,CB,1,2,,4.0,0,CLOSED
+Química,Qui,CB,1,2,,5.0,0,CLOSED
+Hidráulica I,Hid I,CE,2,3,,6.0,0,CLOSED
+Materiais de Construção,MC,CE,2,3,,6.0,0,CLOSED
+Mecânica dos Solos,MS,CE,2,3,,5.0,0,CLOSED
+Resistência de Materiais I,RM I,CE,2,3,,6.0,0,CLOSED
+Técnicas de Comunicação,TC,MC,2,3,,3.0,0,CLOSED
+Topografia,Topog,CE,2,3,,4.0,0,CLOSED
+Física das Construções,FC,CE,2,4,,6.0,0,CLOSED
+Fundações,Fund,ES,2,4,,6.0,0,CLOSED
+Hidráulica II,Hid II,ES,2,4,,6.0,0,CLOSED
+Planeamento Regional e Urbano,PRU,ES,2,4,,6.0,0,CLOSED
+Resistência de Materiais II,RM II,CE,2,4,,6.0,0,CLOSED
+Análise de Estruturas I,AE I,ES,3,5,,5.0,0,CLOSED
+Betão Estrutural I,BE I,ES,3,5,,5.0,0,CLOSED
+Estaleiros e Segurança,Est Seg,ES,3,5,,5.0,0,CLOSED
+Processos de Construção I,PC I,ES,3,5,,5.0,0,CLOSED
+Saneamento Ambiental I,SA I,ES,3,5,,5.0,0,CLOSED
+Vias de Comunicação I,VC I,ES,3,5,,5.0,0,CLOSED
+Betão Estrutural II,BE II,ES,3,6,,5.0,0,CLOSED
+Dimensionamento de Estruturas I,DE I,ES,3,6,,5.0,0,CLOSED
+Gestão e Qualidade de Obras I,GQO I,ES,3,6,,5.0,0,CLOSED
+Infraestruturas e Serviços Municipais,ISM,ES,3,6,,5.0,0,CLOSED
+Instalações Técnicas,Ins Tec,ES,3,6,,5.0,0,CLOSED
+Seminários,Sem,ES,3,6,,5.0,0,CLOSED
+Álgebra Linear e Geometria Analítica,ALGA,CB,1,1,,6.0,0,CLOSED
+Análise Matemática I,AM I,CB,1,1,,6.0,0,CLOSED
+Desenho Técnico I,DT I,CE,1,1,,5.0,0,CLOSED
+Inglês Técnico,Ing Tec,MC,1,1,,3.0,0,CLOSED
+Introdução à Informática,IP,MC,1,1,,4.0,0,CLOSED
+Mecânica I,Mec I,CB,1,2,,6.0,0,CLOSED
+Análise Matemática II,AM II,CB,1,2,,6.0,0,CLOSED
+Desenho Técnico II,DT II,CE,1,2,,5.0,0,CLOSED
+Probabilidades e Estatística,PE,CB,1,2,,4.0,0,CLOSED
+Geologia,Geo,CB,2,3,,4.0,0,CLOSED
+Mecânica II,Mec II,CE,2,3,,6.0,0,CLOSED
+Química,Qui,CB,2,3,,5.0,0,CLOSED
+Hidráulica I,Hid I,CE,2,3,,6.0,0,CLOSED
+Materiais de Construção,MC,CE,2,4,,6.0,0,CLOSED
+Resistência de Materiais I,RM I,CE,2,4,,6.0,0,CLOSED
+Técnicas de Comunicação,TC,MC,2,4,,3.0,0,CLOSED
+Topografia,Topog,CE,2,4,,4.0,0,CLOSED
+Hidráulica II,Hid II,ES,2,4,,6.0,0,CLOSED
+Mecânica dos Solos,MS,CE,3,5,,5.0,0,CLOSED
+Física das Construções,FC,CE,3,5,,6.0,0,CLOSED
+Planeamento Regional e Urbano,PRU,ES,3,5,,6.0,0,CLOSED
+Resistência de Materiais II,RMII,CE,3,5,,6.0,0,CLOSED
+Fundações,Fund,ES,3,6,,6.0,0,CLOSED
+Análise de Estruturas I,AE I,ES,3,6,,5.0,0,CLOSED
+Estaleiros e Segurança,Est Seg,ES,3,6,,5.0,0,CLOSED
+Processos de Construção I,PC I,ES,3,6,,5.0,0,CLOSED
+Betão Estrutural I,BE I,ES,4,7,,5.0,0,CLOSED
+Saneamento Ambiental I,SA I,ES,4,7,,5.0,0,CLOSED
+Vias de Comunicação I,VC I,ES,4,7,,5.0,0,CLOSED
+Instalações Técnicas,Ins Tec,ES,4,7,,5.0,0,CLOSED
+Betão Estrutural II,BE II,ES,4,8,,5.0,0,CLOSED
+Dimensionamento de Estruturas I,DE I,ES,4,8,,5.0,0,CLOSED
+Gestão e Qualidade de Obras I,GQO I,ES,4,8,,5.0,0,CLOSED
+Infraestruturas e Serviços Municipais,ISM,ES,4,8,,5.0,0,CLOSED
+Seminários,Sem,ES,4,8,,5.0,0,CLOSED
+Análise de Estruturas II,AE II,ES,1,1,,7.0,0,CLOSED
+Análise Matemática III,AM III,CB,1,1,,6.0,0,CLOSED
+Arquitectura,ARQ,MC,1,1,,4.0,0,CLOSED
+Métodos Numéricos,Met Num,CE,1,1,,6.0,0,CLOSED
+Obras Geotécnicas,O Geo,ES,1,1,,6.0,0,CLOSED
+Dinâmica de Estruturas,Din Est,ES,1,2,,6.0,0,CLOSED
+Investigação Operacional,IO,CE,1,2,,7.0,0,CLOSED
+Materiais de Construção II,MC II,ES,1,2,,6.0,0,CLOSED
+Saneamento Ambiental II,SA II,ES,1,2,,6.0,0,CLOSED
+Vias de Comunicação II,VC II,ES,1,2,,6.0,0,CLOSED
+Betão Estrutural III,BE III,ES,2,3,,6.0,0,CLOSED
+Conservação e Reabilitação I,CR I,ES,2,3,,6.0,0,CLOSED
+Edificações,Edif,ES,2,3,,6.0,0,CLOSED
+Estruturas Metálicas,Est Met,ES,2,3,,6.0,0,CLOSED
+Gestão e Qualidade de Obras II,GQO II,ES,2,3,,6.0,0,CLOSED
+Conservação e Reabilitação II,CR II,ES,2,4,,9.0,0,CLOSED
+Dimensionamento de Estruturas II,DE II,ES,2,4,,9.0,0,CLOSED
+Processos de Construção II,PC II,ES,2,4,,9.0,0,CLOSED
+Responsabilidade e Ética,Resp Et,MC,2,4,,3.0,0,CLOSED
+Álgebra Linear e Geometria Analítica,ALGA,CB,1,1,,5.0,0,CLOSED
+Análise Matemática I,AM I,CB,1,1,,7.0,0,CLOSED
+Desenho Técnico I,DT I,CE,1,1,,4.0,0,CLOSED
+Geologia de Engenharia,Geo Eng,CB,1,1,,4.0,0,CLOSED
+Inglês Técnico,Ing Tec,MC,1,1,,2.0,0,CLOSED
+Mecânica I,Mec I,CB,1,1,,7.0,0,CLOSED
+Análise Matemática II,AM II,CB,1,2,,7.0,0,CLOSED
+Desenho Técnico II,DT II,CE,1,2,,4.0,0,CLOSED
+Introdução à Informática,IP,MC,1,2,,5.0,0,CLOSED
+Mecânica II,Mec II,CE,1,2,,7.0,0,CLOSED
+Probabilidades e Estatística,PE,CB,1,2,,4.0,0,CLOSED
+Química Geral,Qui Ger,CB,1,2,,4.0,0,CLOSED
+História da Arquitectura e Construções I,HAC I,ES,2,3,,3.0,0,CLOSED
+Materiais de Construção I,MC I,CE,2,3,,6.0,0,CLOSED
+Mecânica dos Solos e Fundações,MSF,CE,2,3,,6.0,0,CLOSED
+Química e Física dos Materiais,QFM,CE,2,3,,4.0,0,CLOSED
+Resistência de Materiais I,RM I,CE,2,3,,7.0,0,CLOSED
+Técnicas de Levantamento,Tec Lev,CE,2,3,,4.0,0,CLOSED
+Degradação dos Materiais,Deg Mat,ES,2,4,,5.0,0,CLOSED
+Elementos de Electricidade e Magnetismo,EEM,CB,2,4,,7.0,0,CLOSED
+Física das Construções,FC,CE,2,4,,6.0,0,CLOSED
+História da Arquitectura e Construções II,HAC II,ES,2,4,,3.0,0,CLOSED
+Resistência de Materiais II,RM II,CE,2,4,,7.0,0,CLOSED
+Técnicas de Comunicação,Tec Com,MC,2,4,,2.0,0,CLOSED
+Análise de Estruturas I,AE I,CE,3,5,,5.0,0,CLOSED
+Betão Estrutural I,BE I,ES,3,5,,5.0,0,CLOSED
+Conservação e Reabilitação I,CR I,ES,3,5,,7.0,0,CLOSED
+Organização de Estaleiros,Org Est,ES,3,5,,5.0,0,CLOSED
+Processos de Construção Tradicionais,PCT,ES,3,5,,5.0,0,CLOSED
+Técnicas de Inspecção e Diagnóstico,TID,ES,3,5,,3.0,0,CLOSED
+Betão Estrutural II,BE II,ES,3,6,,6.0,0,CLOSED
+Conservação e Reabilitação II,CR II,ES,3,6,,7.0,0,CLOSED
+Dimensionamento de Estruturas I,DE I,ES,3,6,,6.0,0,CLOSED
+Planeamento e Gestão de Empreendimentos,PGE,ES,3,6,,4.0,0,CLOSED
+Processos de Construção Correntes,PCC,ES,3,6,,4.0,0,CLOSED
+Seminários,Sem,ES,3,6,,5.3,0,CLOSED
+Álgebra Linear,AL,N\D,1,1,,5.0,0,OPEN
+Análise Matemática I,AMI,N\D,1,1,,6.0,0,OPEN
+Biologia Geral,BG,N\D,1,1,,5.0,0,OPEN
+Fundamentos de Sistemas de Informação,FSI,N\D,1,1,,5.0,0,OPEN
+Perspetivas em Bioinformática,PB,N\D,1,1,,3.5,0,OPEN
+Química Geral,QG,N\D,1,1,,5.5,0,OPEN
+Análise Matemática II,AMII,N\D,1,2,,6.0,0,OPEN
+Bases de Dados,BD,N\D,1,2,,5.0,0,OPEN
+Biologia Molecular e Celular,BMC,N\D,1,2,,5.0,0,OPEN
+Introdução à Estatística,IE,N\D,1,2,,4.0,0,OPEN
+Linguagens de Programação I,LPI,N\D,1,2,,5.0,0,OPEN
+Química Orgânica,QO,N\D,1,2,,5.0,0,OPEN
+Análise e Tratamento de Dados Multivariados,EDI,N\D,2,3,,5.5,0,OPEN
+Bioquímica,BQ,N\D,2,3,,4.5,0,OPEN
+Data Warehousing,DW,N\D,2,3,,5.0,0,OPEN
+Espectroescopia Molecular,EM,N\D,2,3,,5.0,0,OPEN
+Genómica Estrutural e Evolutiva,GEE,N\D,2,3,,5.0,0,OPEN
+Linguagens de Programação II,LPII,N\D,2,3,,5.0,0,OPEN
+Análise de Sequências Biológicas,ASB,N\D,2,4,,5.0,0,OPEN
+Aprendizagem Automática,AA,N\D,2,4,,5.0,0,OPEN
+Computação de Alto Desempenho,CAD,N\D,2,4,,5.0,0,OPEN
+Data Mining,DM,N\D,2,4,,5.0,0,OPEN
+Ética e Segurança da Informação,ESI,N\D,2,4,,5.0,0,OPEN
+Metabolismo e Regulação,MR,N\D,2,4,,5.0,0,OPEN
+Big Data,BD,N\D,3,5,,5.0,0,OPEN
+Bioquímica Computacional,BC,N\D,3,5,,5.5,0,OPEN
+Empreendedorismo,EMP,N\D,3,5,,4.5,0,OPEN
+Laboratório de Bioinformática,LB,N\D,3,5,,10.0,0,OPEN
+Modelação de Processos Biológicos,MPB,N\D,3,5,,5.0,0,OPEN
+Estágio Curricular ou Projeto,ECP,N\D,3,6,,30.0,0,OPEN
+Álgebra Linear,AL,N\D,1,1,,5.0,0,OPEN
+Análise Matemática I,AM I,N\D,1,1,,6.0,0,OPEN
+Análise Matemática II,AM II,N\D,1,2,,6.0,0,OPEN
+Informática e Programação,IP,N\D,1,1,,4.0,0,OPEN
+Laboratório I,Lab I,N\D,1,1,,5.0,0,CLOSED
+Termodinâmica Química,TQ,N\D,2,3,,5.0,0,OPEN
+Laboratório II,Lab II,N\D,1,2,,5.0,0,CLOSED
+Química Orgânica,QO,N\D,1,2,,5.0,0,OPEN
+Fenómenos de Transferência I,FT I,N\D,2,3,,6.0,0,OPEN
+Fenómenos de Transferência II,FT II,N\D,2,4,,6.0,0,OPEN
+Gestão Industrial,GI,N\D,3,6,,2.0,1,OPEN
+Qualidade, Ambiente e Segurança,QAS,N\D,3,6,,3.0,1,OPEN
+Probabilidades e Estatística A,PE A,N\D,1,2,,4.0,0,CLOSED
+Métodos Instrumentais de Análise B,MIA I,N\D,2,3,,5.0,0,OPEN
+Introdução à Biotecnologia,IB,N\D,1,1,,4.5,0,OPEN
+Fundamentos de Física,FF,N\D,1,2,,5.0,0,OPEN
+Biologia Geral,BG,N\D,1,2,,5.0,0,OPEN
+Química Geral,QG,N\D,1,1,,5.5,0,OPEN
+Bioquímica,BIOQ,N\D,2,3,,4.5,0,OPEN
+Fundamentos de Bioprocessos,FBP,N\D,2,3,,4.5,0,OPEN
+Laboratórios IIIB,Lab IIIB,N\D,2,3,,5.0,0,OPEN
+Microbiologia,MB,N\D,2,4,,4.5,0,OPEN
+Processos de Separação IB,PS IB,N\D,2,4,,4.5,0,OPEN
+Biologia Molecular e Celular,BMC,N\D,2,4,,5.0,0,OPEN
+Fundamentos de Biofísica,FBF,N\D,2,4,,5.0,0,OPEN
+Laboratórios IVB,Lab IVB,N\D,2,4,,5.0,0,OPEN
+Processos de Separação IIB,PS IIB,N\D,3,5,,5.0,0,OPEN
+Engenharia Genética,EG,N\D,3,5,,4.5,0,OPEN
+Microbiologia Aplicada,MA,N\D,3,5,,5.0,0,OPEN
+Reatores Biológicos B,RB B,N\D,3,5,,5.5,0,OPEN
+Tecnologia Microbiana,TM,N\D,3,5,,5.0,0,OPEN
+Laboratórios VB,Lab VB,N\D,3,5,,5.0,0,OPEN
+Tecnologia Alimentar,TA,N\D,3,6,,3.0,0,OPEN
+Biotecnologia Ambiental,BA,N\D,3,6,,2.0,1,OPEN
+Proj. Biotecnológica ou EC,PBEC,N\D,3,6,,22.0,0,OPEN
+Laboratórios I,Lab I,N\D,1,1,,5.0,0,OPEN
+Probabilidades e Estatística,PE,N\D,1,2,,4.0,0,OPEN
+Laboratórios II,Lab II,N\D,1,2,,5.0,0,OPEN
+Equipamentos e Serviços Industriais,ESI,N\D,3,6,,3.0,1,OPEN
+Fundamentos de Matemática I,FMI,N\D,1,1,,4.0,0,OPEN
+Física,FI,N\D,1,1,,6.0,0,OPEN
+Fundamentos de Química,FQ,N\D,1,1,,4.0,0,OPEN
+Informática,IN,N\D,1,1,,4.0,0,OPEN
+Desenho de Construção,DC,N\D,1,1,,6.0,0,OPEN
+Materiais de Construção,MC,N\D,1,1,,6.0,0,OPEN
+Fundamentos de Matemática II,FMII,N\D,1,1,,4.0,0,OPEN
+Técnicas de Levantamento Topográfico,TLT,N\D,1,1,,5.0,0,OPEN
+Organização e Contratação de Obras,OCT,N\D,1,1,,6.0,0,OPEN
+Física Aplicada,FA,N\D,1,1,,4.0,0,OPEN
+Fundamentos de Geotecnia,FG,N\D,1,1,,5.0,0,OPEN
+Processos de Construção,PC,N\D,1,1,,6.0,0,OPEN
+Análise e Tratamento Estatístico de Dados,ATED,N\D,2,1,,4.0,0,OPEN
+Infraestruturas de Vias de Comunicação,IVC,N\D,2,1,,4.0,0,OPEN
+Redes Prediais,RP,N\D,2,1,,4.0,0,OPEN
+Edificações,EDI,N\D,2,1,,6.0,0,OPEN
+Planeamento e Gestão de Obras,PGO,N\D,2,1,,7.0,0,OPEN
+Segurança, Higiene e Saúde no Trabalho - Construçã,SHST,N\D,2,1,,5.0,0,OPEN
+Estágio,ESTA,N\D,2,1,,30.0,0,OPEN
+Física para a Construção,FC,GC,1,2,,5.0,0,OPEN
+Geotecnia,GEOT,TC,1,1,,5.5,0,OPEN
+Materiais de Construção,MC,TC,1,1,,5.5,0,OPEN
+Planeamento e Gestão de Empreendimentos I,PGE,TC,1,1,,5.0,0,OPEN
+Projeto de Construção,PC,TC,1,1,,7.0,0,OPEN
+Sociedade, Economia e Direito,SED,GC,1,2,,2.0,0,OPEN
+Comunicação, Comportamento Organizacional e Empree,CCOE,GC,1,2,,2.0,0,OPEN
+Estruturas de Edifícios e Obras de Arte,EEOA,TC,1,1,,5.5,0,OPEN
+Planeamento e Gestão de Empreendimentos II,PGE II,TC,1,2,,6.5,0,OPEN
+Processos de Construção,PC,TC,1,2,,6.5,0,OPEN
+Segurança, Higiene e Saúde na Construção,SHSC,TC,1,2,,5.5,0,OPEN
+Estágio,Estag,CT,2,1,,24.0,0,OPEN
+Processos de Construção II,PC II,ES,3,5,,4.0,0,OPEN
+Álgebra Linear,AL,CB,1,1,,5.5,0,OPEN
+Análise Matemática I,AM I,CB,1,1,,5.5,0,OPEN
+Desenho Técnico I,DT I,CE,1,1,,4.5,0,OPEN
+Inglês Técnico,Ing Tec,MC,1,1,,4.0,0,OPEN
+Mecânica A,MEC A,CB,1,1,,6.5,0,OPEN
+Técnicas de Comunicação,Tec Com,MC,1,1,,4.0,0,OPEN
+Probabilidades e Estatística A,PE A,CB,1,2,,4.0,0,OPEN
+Análise de Estruturas Isostáticas,AEI,CE,1,2,,6.5,0,OPEN
+Análise Matemática II,AM II,CB,1,2,,6.0,0,OPEN
+Desenho Técnico II,DT II,CE,1,2,,4.5,0,OPEN
+Probabilidades e Estatística,PE,CB,1,2,,4.0,0,CLOSED
+Geologia de Engenharia,GEO ENG,CB,1,2,,4.5,0,OPEN
+Química B,QUI B,CB,1,2,,4.5,0,OPEN
+Informática e Programação,IP,MC,2,3,,4.5,0,OPEN
+Materiais de Construção I,MC I,CE,2,3,,6.0,0,OPEN
+Resistência de Materiais I,RM I,CE,2,3,,6.0,0,OPEN
+História da Arquitectura e Construções I,HAC I,ES,2,3,,3.0,0,OPEN
+Mecânica dos Solos e Fundações,MSF,CE,2,3,,5.0,0,OPEN
+Química e Física dos Materiais,QFM,CE,2,3,,5.5,0,OPEN
+Física das Construções,FC,CE,2,4,,6.0,0,OPEN
+Processos de Construção I,PC I,ES,2,4,,5.0,0,OPEN
+Resistência de Materiais II,RM II,CE,2,4,,6.0,0,OPEN
+Conservação e Reabilitação I,CR I,ES,3,5,,5.5,0,OPEN
+Degradação dos Materiais,DM,ES,2,4,,5.5,0,OPEN
+História da Arquitectura e Construções II,HAC II,ES,2,4,,3.0,0,OPEN
+Betão Estrutural,BE,ES,3,5,,5.5,0,OPEN
+Modelação e Análise de Estruturas,MAE,CE,3,5,,5.5,0,OPEN
+Planeamento e Gestão de Empreendimentos I,PGE I,ES,3,5,,5.5,0,OPEN
+Conservação e Reabilitação II,CR II,ES,3,6,,5.5,0,OPEN
+Técnicas de Inspeção e Diagnóstico,TID,ES,3,5,,4.0,0,OPEN
+Técnicas de Levantamento,Tec Lev,CE,2,4,,4.5,0,OPEN
+Fundações e Estruturas de Suporte,FES,ES,3,6,,4.5,1,CLOSED
+Dimensionamento de Estruturas,DE,ES,3,6,,5.5,0,OPEN
+Estruturas Metálicas e Mistas,EMM,ES,3,6,,4.5,1,CLOSED
+Planeamento e Gestão de Empreendimentos II,PGE II,ES,3,6,,5.5,0,OPEN
+Reabilitação e Reforço de Estruturas,RREst,ES,3,6,,5.5,0,OPEN
+Segurança, Higiene e Saúde na Construção,SHSC,ES,3,6,,4.0,0,OPEN
+Empreendedorismo e Criação de Empresas,ECE,MC,3,6,,4.0,1,OPEN
+Instalações Técnicas,InstTec,ES,3,6,,4.5,1,OPEN
+Reabilitação e Reforço de Estruturas,RREst,ES,3,6,,5.5,0,OPEN
+Materiais de Construção II,MC II,ES,3,6,,4.5,2,CLOSED
+Conservação e Reabilitação I,CR I,ES,1,1,,6.0,0,OPEN
+Degradação dos Materiais,Deg Mat,ES,1,1,,6.0,0,OPEN
+Conservação e Reabilitação II,CR II,ES,1,2,,6.0,0,OPEN
+Técnicas de Inspeção e Diagnóstico,TID,ES,1,2,,6.0,0,OPEN
+Técnicas de Levantamento,Tec Lev,ES,1,1,,6.0,0,OPEN
+Reabilitação e Reforço de Estruturas,RREst,ES,1,2,,6.0,1,OPEN
+Conforto Ambiental em Edifícios,CAE,ES,1,2,,6.0,1,OPEN
+Álgebra Linear,AL,CB,1,1,,5.5,0,OPEN
+Análise Matemática I,AM I,CB,1,1,,5.5,0,OPEN
+Desenho Técnico I,DT I,CE,1,1,,4.5,0,OPEN
+Inglês Técnico,Ing Tec,MC,1,2,,4.0,0,OPEN
+Mecânica A,Mec A,CB,1,1,,6.5,0,OPEN
+Técnicas de Comunicação,Tec Com,MC,1,2,,4.0,0,OPEN
+Análise de Estruturas Isostáticas,AEI,CE,1,2,,6.5,0,OPEN
+Análise Matemática II,AM II,CB,1,2,,6.0,0,OPEN
+Desenho Técnico II,DT II,CE,1,2,,4.5,0,OPEN
+Probabilidades e Estatística,PE,CB,2,3,,4.0,0,CLOSED
+Informática e Programação,IP,MC,2,4,,4.5,0,OPEN
+Materiais de Construção I,MC I,CE,2,3,,6.0,0,OPEN
+Resistência de Materiais I,RM I,CE,2,3,,6.0,0,OPEN
+Física das Construções,FC,CE,3,6,,6.0,0,OPEN
+Fundações e Estruturas de Suporte,FES,EC,3,6,,4.5,1,CLOSED
+Processos de Construção I,PC I,ES,2,4,,5.0,0,OPEN
+Resistência de Materiais II,RM II,CE,2,4,,6.0,0,OPEN
+Betão Estrutural,BE,EC,4,7,,5.5,0,OPEN
+Modelação e Análise de Estruturas,MAE,CE,3,5,,5.5,0,OPEN
+Planeamento e Gestão de Empreendimentos I,PGE I,EC,4,7,,5.5,0,OPEN
+Dimensionamento de Estruturas,DE,EC,4,8,,5.5,0,OPEN
+Estruturas Metálicas e Mistas,EMM,EC,3,6,,4.5,1,CLOSED
+Planeamento e Gestão de Empreendimentos II,PGE II,EC,4,8,,5.5,0,OPEN
+Segurança, Higiene e Saúde na Construção,SHSC,EC,3,6,,4.0,0,OPEN
+Empreendedorismo e Criação de Empresas,ECE,MC,3,6,,4.0,1,OPEN
+Instalações Técnicas,Inst Tec,EC,3,6,,4.5,1,OPEN
+Geologia de Engenharia,Geo Eng,CB,2,3,,4.5,0,OPEN
+Química B,Qui B,CB,1,1,,4.5,0,OPEN
+História da Arquitectura e Construções I,HAC I,CB,3,5,,3.0,0,OPEN
+Mecânica dos Solos e Fundações,MSF,CE,3,5,,5.0,0,OPEN
+Química e Física dos Materiais,QFM,CE,2,3,,5.5,0,OPEN
+Conservação e Reabilitação I,CR I,ES,4,7,,5.5,0,OPEN
+Degradação dos Materiais,Deg Mat,ES,2,4,,5.5,0,OPEN
+História da Arquitectura e Construções II,HAC II,CB,3,6,,3.0,0,OPEN
+Conservação e Reabilitação II,CR II,EC,4,8,,5.5,0,OPEN
+Técnicas de Inspeção e Diagnóstico,TID,EC,4,7,,4.0,0,OPEN
+Técnicas de Levantamento,Tec Lev,CE,2,4,,4.5,0,OPEN
+Reabilitação e Reforço de Estruturas,RRE,EC,4,8,,5.5,0,OPEN
+Materiais de Construção II,MC II,EC,4,8,,4.5,2,CLOSED
+Processos de Construção II,PC II,ES,3,5,,4.0,0,OPEN
+Probabilidades e Estatística A,PE A,CB,2,3,,4.0,0,OPEN
+Álgebra Linear,AL,N\D,1,1,,5.0,0,OPEN
+Análise Matemática I,AMI,N\D,1,1,,6.0,0,OPEN
+Desenho Técnico,DT,N\D,1,1,,5.0,0,OPEN
+Mecânica A,MA,N\D,1,1,,6.0,0,OPEN
+Química A,QA,N\D,1,1,,4.0,0,OPEN
+Seminários de Engenharia Civil,SEC,N\D,1,1,,4.0,0,OPEN
+Análise de Estruturas Isostáticas,AEI,N\D,1,2,,6.0,0,OPEN
+Análise Matemática II,AMII,N\D,1,2,,6.0,0,OPEN
+Cartografia,CG,N\D,1,2,,5.0,0,OPEN
+Geologia de Engenharia,GE,N\D,1,2,,5.0,0,OPEN
+Probabilidades e Estatística,PE,N\D,1,2,,4.0,0,OPEN
+Informática e Programação,IP,N\D,1,2,,4.0,0,OPEN
+Hidráulica Geral,HG,N\D,2,3,,7.0,0,OPEN
+Materiais de Construção A,MCA,N\D,2,3,,6.0,0,OPEN
+Mecânica dos Solos,MS,N\D,2,3,,6.0,0,OPEN
+Processos de Construção I,PCI,N\D,2,3,,5.0,0,OPEN
+Resistência de Materiais I,RMI,N\D,2,3,,6.0,0,OPEN
+Física das Construções,FC,N\D,2,4,,6.0,0,OPEN
+Hidráulica Aplicada,HA,N\D,2,4,,7.0,0,OPEN
+Planeamento e Gestão do Território,PGT,N\D,2,4,,5.0,0,OPEN
+Processos de Construção II,PCII,N\D,2,4,,6.0,0,OPEN
+Resistência de Materiais II,RMII,N\D,2,4,,6.0,0,OPEN
+Betão Estrutural,BE,N\D,3,5,,7.0,0,OPEN
+Modelação e Análise de Estruturas,MAE,N\D,3,5,,6.0,0,OPEN
+Planeamento e Gestão de Empreendimentos I,PGEI,N\D,3,5,,6.0,0,OPEN
+Instalações Técnicas Prediais A,ITPA,N\D,3,5,,6.0,0,OPEN
+Infraestruturas de Transportes,IT,N\D,3,5,,5.0,0,OPEN
+Dimensionamento de Estruturas,DE,N\D,3,6,,7.0,0,OPEN
+Estruturas Metálicas e Mistas,EMM,N\D,3,6,,6.0,0,OPEN
+Planeamento e Gestão de Empreendimentos II,PGEII,N\D,3,6,,7.0,0,OPEN
+Segurança, Higiene e Saúde na Construção,SHSC,N\D,3,6,,5.0,0,OPEN
+Empreendedorismo,ED,N\D,3,6,,5.0,1,OPEN
+Inglês Profissional,Ing P,N\D,3,6,,5.0,1,OPEN
+Processos de Construção II,PC II,ES,3,5,,4.0,0,CLOSED
+Álgebra Linear,AL,CB,1,1,,5.5,0,CLOSED
+Análise Matemática I,AM I,CB,1,1,,5.5,0,CLOSED
+Desenho Técnico I,DT I,CE,1,1,,4.5,0,CLOSED
+Inglês Técnico,Ing Tec,MC,1,1,,4.0,0,CLOSED
+Mecânica A,Mec A,CB,1,1,,6.5,0,CLOSED
+Técnicas de Comunicação,Tec Com,MC,1,1,,4.0,0,CLOSED
+Probabilidades e Estatística A,PE A,CB,1,2,,4.0,0,CLOSED
+Vias de Comunicação e Transportes B,VCT B,ES,3,5,,5.5,0,CLOSED
+Análise de Estruturas Isostáticas,AEI,CE,1,2,,6.5,0,CLOSED
+Análise Matemática II,AM II,CB,1,2,,6.0,0,CLOSED
+Desenho Técnico II,DT II,CE,1,2,,4.5,0,CLOSED
+Geologia,Geo,CB,1,2,,4.5,0,CLOSED
+Probabilidades e Estatística,PE,CB,1,2,,4.0,0,CLOSED
+Química A,Qui A,CB,1,2,,4.5,0,CLOSED
+Hidráulica I,Hid I,CE,2,3,,4.5,0,CLOSED
+Informática e Programação,IP,MC,2,3,,4.5,0,CLOSED
+Materiais de Construção I,MC I,CE,2,3,,6.0,0,CLOSED
+Mecânica dos Solos,MS,CE,2,3,,5.0,0,CLOSED
+Resistência de Materiais I,RM I,CE,2,3,,6.0,0,CLOSED
+Cartografia,Cart,CE,2,3,,4.0,0,CLOSED
+Planeamento Regional e Urbano,PRU,ES,2,4,,4.0,0,CLOSED
+Física das Construções,FC,CE,2,4,,6.0,0,CLOSED
+Fundações e Estruturas de Suporte,FES,ES,2,4,,4.5,0,CLOSED
+Hidráulica II,Hid II,ES,2,4,,4.5,0,CLOSED
+Processos de Construção I,PC I,ES,2,4,,5.0,0,CLOSED
+Resistência de Materiais II,RM II,CE,2,4,,6.0,0,CLOSED
+Betão Estrutural,BE,ES,3,5,,5.5,0,CLOSED
+Infra-estruturas e Serviços Municipais,ISM,ES,3,5,,4.5,0,CLOSED
+Modelação e Análise de Estruturas,MAE,ES,3,5,,5.5,0,CLOSED
+Planeamento e Gestão de Empreendimentos I,PGE I,ES,3,5,,5.5,0,CLOSED
+Saneamento Ambiental I,SA I,ES,3,5,,4.0,0,CLOSED
+Vias de Comunicação I,VC I,ES,3,5,,4.5,0,CLOSED
+Dimensionamento de Estruturas,DE,ES,3,6,,5.5,0,CLOSED
+Estruturas Metálicas e Mistas,EMM,ES,3,6,,5.5,0,CLOSED
+Planeamento e Gestão de Empreendimentos II,PGE II,ES,3,6,,5.5,0,CLOSED
+Redes Prediais,Red Pred,ES,3,6,,5.5,0,CLOSED
+Segurança, Higiene e Saúde na Construção,SHSC,ES,3,6,,4.0,0,CLOSED
+Empreendedorismo e Criação de Empresas,ECE,MC,3,6,,4.0,1,CLOSED
+Instalações Técnicas,Inst Tec,ES,3,6,,4.0,1,CLOSED
+Álgebra Linear,AL,N\D,1,1,,5.0,0,OPEN
+Análise Matemática I,AMI,N\D,1,1,,6.0,0,OPEN
+Desenho Técnico,DT,N\D,1,2,,5.0,0,OPEN
+Mecânica A,MA,N\D,1,1,,6.0,0,OPEN
+Química A,QA,N\D,1,2,,4.0,0,OPEN
+Seminários de Engenharia Civil,SEC,N\D,1,1,,4.0,0,OPEN
+Análise de Estruturas Isostáticas,AEI,N\D,1,2,,6.0,0,OPEN
+Análise Matemática II,AMII,N\D,1,2,,6.0,0,OPEN
+Cartografia,CG,N\D,2,4,,5.0,0,OPEN
+Geologia de Engenharia,GE,N\D,2,3,,5.0,0,OPEN
+Probabilidades e Estatística,PE,N\D,2,3,,4.0,0,OPEN
+Informática e Programação,IP,N\D,2,4,,4.0,0,OPEN
+Hidráulica Geral,HG,N\D,3,5,,7.0,0,OPEN
+Materiais de Construção A,MCA,N\D,2,3,,6.0,0,OPEN
+Mecânica dos Solos,MS,N\D,2,4,,6.0,0,OPEN
+Processos de Construção I,PCI,N\D,3,5,,5.0,0,OPEN
+Resistência de Materiais I,RMI,N\D,2,3,,6.0,0,OPEN
+Física das Construções,FC,N\D,3,6,,6.0,0,OPEN
+Hidráulica Aplicada,HA,N\D,3,6,,7.0,0,OPEN
+Planeamento e Gestão do Território,PGT,N\D,4,7,,5.0,0,OPEN
+Processos de Construção II,PCII,N\D,3,6,,6.0,0,OPEN
+Resistência de Materiais II,RMII,N\D,2,4,,6.0,0,OPEN
+Betão Estrutural,BE,N\D,3,5,,7.0,0,OPEN
+Modelação e Análise de Estruturas,MAE,N\D,3,5,,6.0,0,OPEN
+Planeamento e Gestão de Empreendimentos I,PGEI,N\D,4,7,,6.0,0,OPEN
+Instalações Técnicas Prediais A,ITPA,N\D,4,7,,6.0,0,OPEN
+Infraestruturas de Transportes,IT,N\D,4,7,,5.0,0,OPEN
+Dimensionamento de Estruturas,DE,N\D,4,8,,7.0,0,OPEN
+Estruturas Metálicas e Mistas,EMM,N\D,3,6,,6.0,0,OPEN
+Planeamento e Gestão de Empreendimentos II,PGEII,N\D,4,8,,7.0,0,OPEN
+Segurança, Higiene e Saúde na Construção,SHSC,N\D,4,8,,5.0,0,OPEN
+Empreendedorismo,ED,N\D,4,8,,5.0,1,OPEN
+Inglês Profissional,Ing P,N\D,4,8,,5.0,1,OPEN
+Processos de Construção II,PC II,ES,4,7,,4.0,0,CLOSED
+Álgebra Linear,AL,CB,1,1,,5.5,0,CLOSED
+Análise Matemática I,AM I,CB,1,1,,5.5,0,CLOSED
+Desenho Técnico I,DT I,CE,1,1,,4.5,0,CLOSED
+Inglês Técnico,Ing Tec,MC,1,2,,4.0,0,CLOSED
+Mecânica A,Mec A,CB,1,1,,6.5,0,CLOSED
+Probabilidades e Estatística A,PE A,CB,2,3,,4.0,0,CLOSED
+Vias de Comunicação e Transportes B,VCT B,ES,4,7,,5.5,0,CLOSED
+Análise de Estruturas Isostáticas,AEI,CE,1,2,,6.5,0,CLOSED
+Análise Matemática II,AM II,CB,1,2,,6.0,0,CLOSED
+Desenho Técnico II,DT II,CE,1,2,,4.5,0,CLOSED
+Geologia,Geo,CB,2,3,,4.5,0,CLOSED
+Química A,Qui A,CB,1,1,,4.5,0,CLOSED
+Técnicas de Comunicação,Tec Com,MC,1,2,,4.0,0,CLOSED
+Hidráulica I,Hid I,CE,2,3,,4.5,0,CLOSED
+Informática e Programação,IP,MC,2,4,,4.5,0,CLOSED
+Materiais de Construção I,MC I,CE,2,3,,6.0,0,CLOSED
+Resistência de Materiais I,RM I,CE,2,3,,6.0,0,CLOSED
+Probabilidades e Estatística,PE,CB,2,3,,4.0,0,CLOSED
+Cartografia,Cart,CE,2,4,,4.0,0,CLOSED
+Física das Construções,FC,CE,3,6,,6.0,0,CLOSED
+Hidráulica II,Hid II,ES,2,4,,4.5,0,CLOSED
+Resistência de Materiais II,RM II,CE,2,4,,6.0,0,CLOSED
+Mecânica dos Solos,MS,CE,3,5,,5.0,0,CLOSED
+Planeamento Regional e Urbano,PRU,ES,3,5,,4.0,0,CLOSED
+Modelação e Análise de Estruturas,MAE,ES,3,5,,5.5,0,CLOSED
+Vias de Comunicação I,VC I,ES,4,7,,4.5,0,CLOSED
+Fundações e Estruturas de Suporte,FES,ES,3,6,,4.5,0,CLOSED
+Processos de Construção I,PC I,ES,2,4,,5.0,0,CLOSED
+Estruturas Metálicas e Mistas,EMM,ES,3,6,,5.5,0,CLOSED
+Empreendedorismo e Criação de Empresas,ECE,MC,4,8,,4.0,1,CLOSED
+Instalações Técnicas,Inst Tec,ES,4,8,,4.0,1,CLOSED
+Betão Estrutural,BE,ES,3,5,,5.5,0,CLOSED
+Infra-estruturas e Serviços Municipais,ISM,ES,4,7,,4.5,0,CLOSED
+Planeamento e Gestão de Empreendimentos I,PGE I,ES,4,7,,5.5,0,CLOSED
+Saneamento Ambiental I,SA I,ES,4,7,,4.0,0,CLOSED
+Dimensionamento de Estruturas,DE,ES,4,8,,5.5,0,CLOSED
+Planeamento e Gestão de Empreendimentos II,PGE II,ES,4,8,,5.5,0,CLOSED
+Redes Prediais,Red Pred,ES,3,6,,5.5,0,CLOSED
+Segurança, Higiene e Saúde na Construção,SHSC,ES,4,8,,4.0,0,CLOSED
+Planeamento Regional e Urbano,PRU,EC,2,3,,4.0,0,OPEN
+Inglês Técnico,Ing Tec,MC,1,1,,4.0,0,OPEN
+Técnicas de Comunicação,Tec Com,MC,1,1,,4.0,0,OPEN
+Materiais de Construção,MC,EC,1,1,,5.0,0,CLOSED
+Probabilidades e Estatística B,PE B,CB,2,3,,5.5,0,OPEN
+Vias de Comunicação e Transportes A,VCT A,EC,2,3,,4.0,0,OPEN
+Geologia e Geotecnia,GG,CB,1,1,,5.0,0,OPEN
+Gestão na Construção,GC,EG,1,1,,5.5,0,OPEN
+Informática de Gestão I,IG I,CB,1,1,,5.0,0,OPEN
+Matemática,Mat,CB,1,1,,6.5,0,OPEN
+Materiais em Construção Estrutural,MCE,EC,1,2,,5.5,0,OPEN
+Direito do Trabalho e do Imobiliário,DTI,MC,2,3,,5.5,0,OPEN
+Inglês Profissional I,Ing P I,MC,2,4,,4.0,0,OPEN
+Materiais em Construção Não Estrutural,MCNE,EC,2,3,,5.5,0,OPEN
+Construção Sustentável e Inovação Tecnológica,CSIT,EC,3,5,,5.5,0,OPEN
+Inglês Profissional II,Ing P II,MC,3,6,,5.5,0,OPEN
+Seminários,S,ECG,3,6,,5.5,0,OPEN
+Probabilidades e Estatística,PE,CB,1,2,,4.0,0,CLOSED
+Processos de Construção I,PC I,EC,1,1,,5.0,0,OPEN
+Desenho Técnico e Cartografia,DTC,CB,1,1,,5.5,0,OPEN
+Economia,Econ,CB,1,2,,4.0,0,OPEN
+Informática de Gestão II,IG II,CB,1,2,,4.0,0,OPEN
+Mecânica B,Mec B,EC,1,2,,6.0,0,OPEN
+Direito do Trabalho,Dir Trab,MC,2,3,,5.5,0,CLOSED
+Estatística Aplicada,Est Ap,CB,2,3,,4.0,0,CLOSED
+Estruturas de Edifícios e Obras de Arte,EEOA,EC,2,3,,5.5,0,OPEN
+Obras Geotécnicas e Fundações,OGF,EC,2,3,,5.5,0,CLOSED
+Obras Hidráulicas e Saneamento Ambiental,OHSA,EC,3,5,,5.0,0,OPEN
+Processos de Construção II,PC II,EC,2,4,,4.0,0,OPEN
+Física das Construções,FC,EC,2,4,,6.0,0,OPEN
+Redes Prediais,Red Pred,EC,3,5,,5.5,0,OPEN
+Contabilidade e Finanças,CF,EG,2,4,,5.0,0,OPEN
+Investigação Operacional,IO,CB,2,4,,5.5,0,OPEN
+Orçamentação e Elaboração de Propostas,OEP,EG,2,4,,5.5,0,CLOSED
+Vias de Comunicação e Transportes,VCT,EC,2,4,,5.0,0,CLOSED
+Planeamento e Gestão de Empreendimentos I,PGE I,EG,3,5,,5.5,0,OPEN
+Instalações Técnicas,Inst Tec,EC,3,6,,4.0,0,OPEN
+Conservação e Reabilitação I,CR I,EC,3,5,,5.5,0,OPEN
+Elaboração e Avaliação de Projetos,EAP,EG,3,6,,4.5,0,OPEN
+Gestão de Recursos Humanos,GRH,EG,2,4,,5.5,0,OPEN
+Qualidade na Construção,QC,EC,3,5,,4.5,0,CLOSED
+Planeamento e Gestão de Empreendimentos II,PGE II,EG,3,6,,5.5,0,OPEN
+Segurança, Higiene e Saúde na Construção,SHSC,EC,3,6,,4.0,0,OPEN
+Empreendedorismo e Criação de Empresas,ECE,EG,3,6,,4.0,0,OPEN
+Construção Sustentável,Cons Sus,EC,3,6,,7.0,0,CLOSED
+Inglês Profissional,Ing Prof,EG,3,6,,4.5,0,CLOSED
+Responsabilidade e Ética,RE,MC,3,6,,3.5,0,CLOSED
+Planeamento Regional e Urbano,PRU,EC,3,5,,4.0,0,OPEN
+Técnicas de Comunicação,Tec Com,MC,1,1,,4.0,0,OPEN
+Materiais de Construção,MC,EC,1,1,,5.0,0,CLOSED
+Probabilidades e Estatística B,PE B,CB,2,3,,5.5,0,OPEN
+Vias de Comunicação e Transportes A,VCT A,EC,2,3,,4.0,0,OPEN
+Geologia e Geotecnia,GG,CB,1,1,,5.0,0,OPEN
+Gestão na Construção,GC,EG,1,1,,5.5,0,OPEN
+Matemática,Mat,CB,1,1,,6.5,0,OPEN
+Materiais em Construção Estrutural,MCE,EC,2,4,,5.5,0,OPEN
+Direito do Trabalho e do Imobiliário,DTI,MC,2,3,,5.5,0,OPEN
+Inglês Profissional I,Ing P I,MC,3,6,,4.0,0,OPEN
+Materiais em Construção Não Estrutural,MCNE,EC,3,5,,5.5,0,OPEN
+Construção Sustentável e Inovação Tecnológica,CSIT,EC,4,7,,5.5,0,OPEN
+Inglês Profissional II,Ing P II,MC,4,8,,5.5,0,OPEN
+Seminários,S,ECG,4,8,,5.5,0,OPEN
+Inglês Técnico,Ing Tec,MC,2,3,,4.0,0,OPEN
+Probabilidades e Estatística,PE,CB,2,3,,4.0,0,CLOSED
+Processos de Construção I,PC I,EC,2,3,,5.0,0,OPEN
+Informática de Gestão I,IG I,CB,1,1,,5.0,0,OPEN
+Desenho Técnico e Cartografia,DTC,CB,1,1,,5.5,0,OPEN
+Mecânica B,Mec B,CB,1,2,,6.0,0,OPEN
+Economia,Econ,CB,2,4,,4.0,0,OPEN
+Estatística Aplicada,Estat Ap,CB,2,4,,4.0,0,CLOSED
+Estruturas de Edifícios e Obras de Arte,EEOA,EC,2,3,,5.5,0,OPEN
+Processos de Construção II,PC II,EC,3,6,,4.0,0,OPEN
+Informática de Gestão II,IG II,CB,1,2,,4.0,0,OPEN
+Direito do Trabalho,Dir Trab,MC,2,4,,5.5,0,CLOSED
+Obras Geotécnicas e Fundações,OGF,EC,3,5,,5.5,0,CLOSED
+Investigação Operacional,IO,CB,3,6,,5.5,0,OPEN
+Obras Hidráulicas e Saneamento Ambiental,OHSA,EC,3,5,,5.0,0,OPEN
+Contabilidade e Finanças,Cont Fin,EG,2,4,,5.0,0,OPEN
+Orçamentação e Elaboração de Propostas,OEP,EG,3,5,,5.5,0,CLOSED
+Vias de Comunicação e Transportes,VCT,EC,3,6,,5.0,0,CLOSED
+Física das Construções,FC,EC,3,6,,6.0,0,OPEN
+Redes Prediais,RP,EC,3,5,,5.5,0,OPEN
+Instalações Técnicas,Inst Tec,EC,4,8,,4.0,0,OPEN
+Elaboração e Avaliação de Projetos,EAP,EG,3,6,,4.5,0,OPEN
+Gestão de Recursos Humanos,GRH,EG,3,6,,5.5,0,OPEN
+Planeamento e Gestão de Empreendimentos I,PGE I,EG,4,7,,5.5,0,OPEN
+Conservação e Reabilitação I,CR I,EC,4,7,,5.5,0,OPEN
+Qualidade na Construção,QC,EC,4,7,,4.5,0,CLOSED
+Construção Sustentável,Cons Sust,EC,3,6,,7.0,0,CLOSED
+Planeamento e Gestão de Empreendimentos II,PGE II,EC,4,8,,5.5,0,OPEN
+Segurança, Higiene e Saúde na Construção,SHSC,EC,4,8,,4.0,0,OPEN
+Empreendedorismo e Criação de Empresas,ECE,EG,4,8,,4.0,0,OPEN
+Inglês Profissional,Ing Prof,EG,4,8,,4.5,0,CLOSED
+Responsabilidade e Ética,RE,MC,4,8,,3.5,0,CLOSED
+Conservação e Reabilitação I,CR I,ES,1,1,,5.5,0,OPEN
+Conservação e Reabilitação II,CR II,ES,1,2,,5.5,0,OPEN
+Gestão de Recursos Humanos,GRH,ES,1,2,,5.5,1,OPEN
+Construção Sustentável e Inovação Tecnológica,CSIT,ES,2,3,,5.5,0,OPEN
+Qualidade e Economia na Construção,QEC,ES,1,1,,6.0,0,OPEN
+Modelação e Análise de Estruturas II,MAE II,ES,1,1,,6.0,0,OPEN
+Dinâmica Estrutural e Engenharia Sísmica,DEES,ES,1,1,,6.5,0,OPEN
+Obras Geotécnicas,O Geo,ES,1,1,,6.0,0,OPEN
+Materiais de Construção II,MC II,ES,1,2,,6.5,0,OPEN
+Betão Estrutural II,BE II,ES,1,2,,6.0,0,OPEN
+Dimensionamento de Estruturas II,DE II,ES,1,2,,6.5,0,OPEN
+Gestão e Avaliação Imobiliária,GAI,ES,1,2,,5.5,1,OPEN
+Planeamento e Gestão Avançada de Empreendimentos,PGAE,ES,2,3,,6.5,0,OPEN
+Revestimentos e Acabamentos,ReAc,ES,2,4,,6.0,0,OPEN
+Betão Estrutural III,BE III,ES,2,3,,6.0,0,OPEN
+Estruturas Metálicas e Mistas II,EMM II,ES,2,3,,6.0,0,OPEN
+Pontes e Viadutos,PV,ES,2,4,,6.0,0,OPEN
+Estágio/Projecto/Dissertação,Estag,ES,2,4,,42.0,0,OPEN
+Ciência e Tecnologia dos Materiais,CTM,N\D,1,1,,7.0,0,OPEN
+Construção Sustentável e Inovação Tecnológica,CSIT,N\D,1,1,,6.0,1,OPEN
+Construção e Engenharia Sísmica,CES,N\D,1,1,,6.0,1,OPEN
+Técnicas de Levantamento,TL,N\D,1,1,,5.5,0,OPEN
+Reabilitação Térmica e Acústica de Edifícios,RTAE,N\D,1,2,,6.0,1,OPEN
+Reabilitação e Reforço de Estruturas,RRE,N\D,1,2,,6.0,1,OPEN
+Legislação e Incentivos à Reabilitação,LIR,N\D,1,2,,6.5,0,OPEN
+Projeto de Reabilitação Não Estrutural,PRNE,N\D,2,1,,5.0,1,OPEN
+Projeto de Reabilitação Estrutural,PRE,N\D,2,1,,5.0,1,OPEN
+Instalações Técnicas,IT,N\D,2,1,,5.0,1,CLOSED
+Conservação e Reabilitação I,CR I,N\D,1,1,,5.5,0,OPEN
+Degradação dos Materiais,DM,N\D,1,1,,4.0,0,CLOSED
+Conservação e Reabilitação II,CR II,N\D,1,2,,5.5,0,OPEN
+Técnicas de Inspeção e Diagnóstico,TID,N\D,1,2,,6.0,0,OPEN
+Técnicas de Levantamento,TL,N\D,1,1,,4.0,0,CLOSED
+Reabilitação e Reforço de Estruturas,RRE,N\D,1,2,,6.5,1,CLOSED
+Planeamento e Gestão Avançada de Empreendimentos,PGAE,N\D,1,1,,6.0,0,OPEN
+Conforto Ambiental em Edifícios,CAE,N\D,1,2,,6.5,1,CLOSED
+Ciência e Tecnologia dos Materiais,CTM,N\D,1,1,,6.0,0,CLOSED
+Eficiência Energética,EE,N\D,1,1,,4.5,0,CLOSED
+Legislação e Incentivos à Reabilitação,LIR,N\D,1,2,,6.0,0,CLOSED
+Projeto de Reabilitação,PR,N\D,2,1,,5.0,1,CLOSED
+Conservação e Manutenção Preventiva,CMP,N\D,1,2,,6.0,0,OPEN
+Estágio/Projeto/Dissertação,EPD,N\D,2,1,,35.0,0,OPEN
+Engenharia Enzimática,EE,N\D,1,1,,6.0,0,OPEN
+Fenómenos de Transferência Avançados,FTA,N\D,1,1,,7.0,0,OPEN
+Modelação e Simulação de Processos,MSP,N\D,1,1,,7.0,0,OPEN
+Tecnologias Energéticas Emergentes,TEE,N\D,1,1,,4.0,0,OPEN
+Biocatálise e Biorremediação,BB,N\D,1,2,,5.0,0,OPEN
+Controlo Industrial,CI,N\D,1,2,,5.0,0,OPEN
+Otimização de Processos,OP,N\D,1,2,,5.0,0,OPEN
+Tecnologia dos Polimeros,TP,N\D,1,2,,5.0,0,OPEN
+Integração de Processos,IP,N\D,2,3,,6.0,0,OPEN
+Indústrias Farmacêuticas,IF,N\D,2,3,,3.0,0,OPEN
+Indústrias Alimentares,IA,N\D,2,3,,3.0,0,OPEN
+Gestão de Organizações,GO,N\D,2,3,,4.0,0,OPEN
+Empreendorismo e Transferência de Tecnologia,ETT,N\D,2,3,,4.0,0,OPEN
+Projeto/Estágio/Dissertação,PED,N\D,2,4,,30.0,0,OPEN
+Engenharia Genética Avançada,EGA,N\D,1,1,,6.0,0,OPEN
+Técnicas de Modelação Aplicadas à Biotecnologia,TMAB,N\D,1,2,,5.0,0,OPEN
+Tecnologia de Células e Tecidos,TCT,N\D,1,2,,5.0,0,OPEN
+Genómica Funcional e Bioinformática,GFB,N\D,2,3,,5.0,0,OPEN
+Projeto Biotecnológico,PB,N\D,2,3,,12.0,0,OPEN
+Reatores Heterogéneos e Catálise,RHC,N\D,1,1,,6.0,0,OPEN
+Eletroquímica Industrial,EE,N\D,1,2,,5.0,0,OPEN
+Processos de Separação Avançados,PSA,N\D,1,2,,5.0,0,OPEN
+Refinação de Petróleos e Petroquímica,RPP,N\D,2,3,,5.0,0,OPEN
+Projeto Químico,EE,N\D,2,3,,12.0,0,OPEN
+Conservação e Reabilitação I,CR I,N\D,1,1,,5.5,0,OPEN
+Conservação e Reabilitação II,CR II,N\D,1,2,,5.5,0,OPEN
+Construção Sustentável e Inovação Tecnológica,CSIT,N\D,2,1,,6.0,0,OPEN
+Qualidade e Economia na Construção,QEC,N\D,1,1,,5.5,0,OPEN
+Dinâmica de Estruturas e Engenharia Sísmica,DEES,N\D,1,1,,6.5,0,OPEN
+Obras Geotécnicas,OG,N\D,1,1,,6.0,0,OPEN
+Planeamento e Gestão Avançada de Empreendimentos,PGAE,N\D,2,1,,6.0,1,OPEN
+Estágio/Projeto/Dissertação,EPD,N\D,2,1,,42.0,0,OPEN
+Mecânica Estrutural,ME,N\D,1,1,,6.5,0,OPEN
+Obras Hidráulicas Urbanas,OHU,N\D,1,2,,5.5,0,OPEN
+Betão Armado e Pré-Esforçado I,BAPE I,N\D,1,2,,6.0,0,OPEN
+Projeto de Estruturas,PE,N\D,1,2,,6.5,0,OPEN
+Tecnologia dos Materiais,TM,N\D,1,2,,6.5,1,OPEN
+Betão Armado e Pré-Esforçado II,BAPE II,N\D,2,1,,6.0,0,OPEN
+Projeto de Estruturas Metálicas e Mistas,PEMM,N\D,2,1,,6.0,0,OPEN
+Estruturas Especiais,EE,N\D,2,2,,6.0,1,OPEN
+Reabilitação Térmica e Acústica de Edifícios,RTAE,N\D,2,2,,6.0,0,OPEN
+Manutenção e Reabilitação de Edifícios (Ualg),MRE,N\D,2,1,,6.0,1,CLOSED
+Avaliação e Reforço de Estruturas (Ualg),ARE,N\D,2,1,,6.0,1,CLOSED
+Construções Metálicas e Mistas (UAlg),CMM,N\D,1,2,,6.5,1,CLOSED
+Álgebra Linear,AL,CB,1,1,,6.0,0,OPEN
+Análise Matemática I,AM I,CB,1,1,,5.0,0,OPEN
+Métodos Instrumentais de Análise B,MIA I,N\D,3,5,,5.0,0,OPEN
+Análise Matemática II,AM II,CB,1,2,,6.0,0,OPEN
+Probabilidades e Estatística,PE,CB,1,2,,4.0,0,CLOSED
+Informática e Programação,IP,MC,1,1,,4.0,0,OPEN
+Mecânica C,Mec C,CB,1,1,,4.0,0,OPEN
+Química I,Qui I,CB,1,1,,6.0,0,OPEN
+Laboratório I,Lab I,CB,1,1,,5.0,0,OPEN
+Eletromagnetismo e Ótica,EO,CB,1,2,,4.5,0,OPEN
+Termodinâmica Química,TQ,CE,2,3,,5.0,0,OPEN
+Química II,Qui II,CB,1,2,,5.5,0,OPEN
+Laboratório II,Lab II,CB,1,2,,5.0,0,OPEN
+Química-Física,QF,CE,2,3,,5.0,0,OPEN
+Química Orgânica,QO,CE,1,2,,5.0,0,OPEN
+Fenómenos de Transferência I,FT I,CE,2,3,,6.0,0,OPEN
+Materiais,Mater,ES,2,4,,4.5,0,OPEN
+Processos Químicos,PQ,CE,2,3,,4.5,0,OPEN
+Laboratório III,Lab III,CE,2,3,,5.0,0,OPEN
+Bioquímica,BioQ,ES,2,3,,4.5,0,OPEN
+Processos de Separação I,PS I,CE,2,4,,5.0,0,OPEN
+Fenómenos de Transferência II,FT II,CE,2,4,,6.0,0,OPEN
+Eletroquímica Industrial e Corrosão,EC,ES,2,4,,4.5,0,OPEN
+Reatores Químicos,RQ,CE,2,4,,5.0,0,OPEN
+Laboratório IV,Lab IV,CE,2,4,,5.0,0,OPEN
+Processos de Separação II,PS II,CE,3,5,,5.0,0,OPEN
+Análises Químicas,AQ,CE,3,5,,6.0,0,CLOSED
+Instrumentação e Controlo,IC,ES,3,5,,4.5,0,OPEN
+Reatores Biológicos,RB,ES,3,5,,6.0,0,OPEN
+Poluição,POL,ES,3,5,,4.5,0,OPEN
+Laboratório V,Lab V,CE,3,5,,5.0,0,OPEN
+Gestão Industrial,GI,MC,3,6,,2.0,0,OPEN
+Processos de Separação III,PS III,CE,3,6,,5.0,0,CLOSED
+Qualidade, Ambiente e Segurança,QAS,ES,3,6,,3.0,0,OPEN
+Equipamentos e Serviços Industriais,ESI,ES,3,6,,3.0,0,OPEN
+Projeto Químico ou Estágio Curricular,PQ_EC,ES,3,6,,22.0,0,OPEN
+Probabilidades e Estatística A,PE A,CB,1,2,,4.0,0,OPEN
+Fundamentos de Matemática I,FMI,N\D,1,1,,4.0,0,OPEN
+Física,FI,N\D,1,1,,6.0,0,OPEN
+Fundamentos de Química,FQ,N\D,1,1,,4.0,0,OPEN
+Informática,IN,N\D,1,1,,4.0,0,OPEN
+Desenho de Construção,DC,N\D,1,1,,6.0,0,OPEN
+Materiais em Construção Nova e Reabilitação,MCNR,N\D,1,1,,6.0,0,OPEN
+Fundamentos de Matemática II,FMII,N\D,1,2,,4.0,0,OPEN
+Técnicas de Levantamento Topográfico,TLT,N\D,1,2,,5.0,0,OPEN
+Organização e Contratação de Obras,OCT,N\D,1,2,,6.0,0,OPEN
+Estruturas de Edifícios,EE,N\D,1,2,,3.0,0,OPEN
+Instalações Prediais,IP,N\D,2,3,,6.0,0,OPEN
+Edificações,ED,N\D,1,2,,6.0,0,OPEN
+Análise e Tratamento Estatístico de Dados,ATED,N\D,1,2,,4.0,0,OPEN
+Planeamento e Gestão de Obras,PGO,N\D,2,3,,7.0,0,OPEN
+Segurança, Higiene e Saúde no Trabalho - Construçã,SHST,N\D,2,3,,5.0,0,OPEN
+Manutenção e Conservação de Edifícios,MCE,N\D,2,3,,4.0,0,OPEN
+Anomalias das Edificações e Técnicas de Reabilitaç,AETR,N\D,2,3,,4.0,0,OPEN
+Eficiência e Reabilitação Energética,ERE,N\D,2,3,,6.0,0,OPEN
+Estágio,ESTA,N\D,2,4,,30.0,0,OPEN
+Métodos de Análise Microbiana,MAM,CE,1,1,,5.0,0,OPEN
+Matemática e Estatística,ME,CB,1,1,,3.0,0,OPEN
+Introdução à Microbiologia,IM,CE,1,1,,1.0,0,OPEN
+Introdução à Química,IQ,CB,1,1,,2.0,0,OPEN
+Operações Unitárias,OU,CE,1,1,,2.0,0,OPEN
+Métodos Instrumentais de Análise,MIA,CE,1,1,,5.0,0,OPEN
+Higiene e Segurança nos Laboratórios,HSL,CE,1,2,,2.0,0,OPEN
+Métodos de Análise de Águas,MAA,CE,1,2,,5.0,0,OPEN
+Métodos de Análise Bioquímica,MAB,CE,1,2,,5.0,0,OPEN
+Inglês,ING,CB,1,2,,1.0,0,OPEN
+Informática,INF,CB,1,1,,1.0,0,OPEN
+Instrumentação,INST,CE,1,2,,2.0,0,OPEN
+Acreditação e Certificação,AC,CE,1,2,,2.0,0,OPEN
+Estágio,Est,N\D,2,3,,24.0,0,OPEN
+Fundamentos de Matemática I,FMI,N\D,1,1,,4.0,0,OPEN
+Informática,Inf,N\D,1,1,,4.0,0,OPEN
+Fundamentos de Química,FQ,N\D,1,1,,4.0,0,OPEN
+Microbiologia e Análises Microbianas,MAM,N\D,1,1,,8.0,0,OPEN
+Higiene e Segurança nos Laboratórios,HSL,N\D,1,1,,4.0,0,OPEN
+Introdução aos Laboratórios Químicos,ILQ,N\D,1,1,,6.0,0,OPEN
+Fundamentos de Matemática II,FMII,N\D,1,2,,4.0,0,OPEN
+Análise e Tratamento Estatístico de Dados,ATED,N\D,1,2,,4.0,0,OPEN
+Acreditação e Certificação,AC,N\D,1,2,,4.0,0,OPEN
+Métodos de Análises de Águas,MAA,N\D,1,2,,6.0,0,OPEN
+Química Aplicada,QA,N\D,1,2,,6.0,0,OPEN
+Fundamentos de Química Orgânica,FQO,N\D,1,2,,6.0,0,OPEN
+Técnicas de Comunicação e Apresentação de Dados,TCAD,N\D,2,3,,3.0,0,OPEN
+Física,Fi,N\D,2,3,,6.0,0,OPEN
+Bioquímica e Análises Bioquímicas,BAB,N\D,2,3,,7.5,0,OPEN
+Métodos Instrumentais de Análise C,MIAC,N\D,2,3,,7.5,0,OPEN
+Técnicas de Genética Molecular,TGM,N\D,2,3,,6.0,0,OPEN
+Estágio,EST,N\D,2,4,,30.0,0,OPEN
+Fundamentos de Matemática I,FMI,N\D,1,1,,4.0,0,OPEN
+Informática,Inf,N\D,1,1,,4.0,0,OPEN
+Fundamentos de Química,FQ,N\D,1,1,,4.0,0,OPEN
+Microbiologia e Análises Microbianas,MAM,N\D,1,1,,8.0,0,OPEN
+Higiene e Segurança nos Laboratórios,HSL,N\D,1,1,,4.0,0,OPEN
+Introdução aos Laboratórios Químicos,ILQ,N\D,1,1,,6.0,0,OPEN
+Fundamentos de Matemática II,FMII,N\D,1,2,,4.0,0,OPEN
+Análise e Tratamento Estatístico de Dados,ATED,N\D,1,2,,4.0,0,OPEN
+Acreditação e Certificação,AC,N\D,1,2,,4.0,0,OPEN
+Métodos de Análises de Águas,MAA,N\D,1,2,,6.0,0,OPEN
+Química Aplicada,QA,N\D,1,2,,6.0,0,OPEN
+Fundamentos de Química Orgânica,FQO,N\D,1,2,,6.0,0,OPEN
+Técnicas de Comunicação e Apresentação de Dados,TCAD,N\D,2,3,,3.0,0,OPEN
+Física,Fi,N\D,2,3,,6.0,0,OPEN
+Bioquímica e Análises Bioquímicas,BAB,N\D,2,3,,7.5,0,OPEN
+Métodos Instrumentais de Análise C,MIAC,N\D,2,3,,7.5,0,OPEN
+Técnicas de Genética Molecular,TGM,N\D,2,3,,6.0,0,OPEN
+Estágio,EST,N\D,2,4,,30.0,0,OPEN
+Álgebra Linear,AL,N\D,1,1,,5.0,0,OPEN
+Análise Matemática I,AMI,N\D,1,1,,6.0,0,OPEN
+Informática e Programação,IP,N\D,1,1,,4.0,0,OPEN
+Mecânica D,MD,N\D,1,1,,4.5,0,OPEN
+Química Geral,QG,N\D,1,1,,5.5,0,OPEN
+Laboratórios I,LI,N\D,1,1,,5.0,0,OPEN
+Análise Matemática II,AMII,N\D,1,2,,6.0,0,OPEN
+Geologia,Geo,N\D,1,2,,4.5,0,OPEN
+Introdução à Química do Petróleo,IQP,N\D,1,2,,4.5,0,OPEN
+Mecânica E,ME,N\D,1,2,,6.0,0,OPEN
+Probabilidades e Estatística,PE,N\D,1,2,,4.0,0,OPEN
+Química Orgânica,QO,N\D,1,2,,5.0,0,OPEN
+Fenómenos de Transferência I,FTI,N\D,2,3,,6.0,0,OPEN
+Geologia do Petróleo,GP,N\D,2,3,,4.0,0,OPEN
+Resistência de Materiais I,RMI,N\D,2,3,,6.0,0,OPEN
+Termodinâmica Química,TQ,N\D,2,3,,5.0,0,OPEN
+Processos Químicos,PQ,N\D,2,3,,4.5,0,OPEN
+Laboratórios de Tecnologias do Petróleo IB,LTPIB,N\D,2,3,,4.5,0,OPEN
+Mecânica dos Solos B,MSB,N\D,2,3,,4.5,0,OPEN
+Laboratórios de Tecnologias do Petróleo IA,LTPIA,N\D,2,3,,4.5,0,OPEN
+Fenómenos de Transferência II,FTII,N\D,2,4,,6.0,0,OPEN
+Materiais B,MATB,N\D,2,4,,4.5,0,OPEN
+Química do Campo Petrolífero e Corrosão,QCPC,N\D,2,4,,4.5,0,OPEN
+Reatores Químicos,RQ,N\D,2,4,,5.0,0,OPEN
+Refinaria,REF,N\D,2,4,,5.5,0,OPEN
+Laboratórios de Tecnologias do Petróleo IIB,LTPIIB,N\D,2,4,,4.5,0,OPEN
+Mecânica das Rochas,MR,N\D,2,4,,5.0,0,OPEN
+Resistência de Materiais na Indústria Petrolífera,RMIP,N\D,2,4,,5.5,0,OPEN
+Laboratórios de Tecnologias do Petróleo IIA,LTPIIA,N\D,2,4,,4.5,0,OPEN
+Biocombustíveis,BIOC,N\D,3,5,,5.0,0,OPEN
+Biorrefinaria,BIOR,N\D,3,5,,5.0,0,OPEN
+Processos de Separação II,PSII,N\D,3,5,,5.0,0,OPEN
+Instrumentação e Controlo,IC,N\D,3,5,,4.5,0,OPEN
+Transformação de Produtos Petroquímicos,TPP,N\D,3,5,,6.0,0,OPEN
+Laboratórios de Tecnologias do Petróleo IIIB,LTPIIIB,N\D,3,5,,4.5,0,OPEN
+Bacias Sedimentares de Hidrocarbonetos,BSH,N\D,3,5,,4.0,0,OPEN
+Fundamentos de Engenharia dos Reservatórios,FER,N\D,3,5,,6.0,0,OPEN
+Prospeção Geofísica,PG,N\D,3,5,,5.0,0,OPEN
+Introdução às Estruturas de Oil and Gas,IEOG,N\D,3,5,,5.0,0,OPEN
+Fundamentos de Engenharia do Poço,FEP,N\D,3,5,,5.5,0,OPEN
+Laboratórios de Tecnologias do Petróleo IIIA,LTPIIIA,N\D,3,5,,4.5,0,OPEN
+Economia do Petróleo e Gás,EPG,N\D,3,6,,4.0,0,OPEN
+Qualidade, Ambiente e Segurança na Indústria do Pe,QAIP,N\D,3,6,,4.0,0,OPEN
+Projeto no Ramo de Prospeção e Produção,PRPP,N\D,3,6,,22.0,0,OPEN
+Projeto no Ramo de Refinação,PRF,N\D,3,6,,22.0,0,OPEN
+Física,Fi,N\D,1,1,,6.0,0,OPEN
+Fundamentos de Matemática I,FMI,N\D,1,1,,4.0,0,OPEN
+Informática,Inf,N\D,1,1,,4.0,0,OPEN
+Cartografia e Sistemas de Referência,CSR,N\D,1,1,,7.0,0,OPEN
+Desenho Técnico e CAD,DTCAD,N\D,1,1,,6.0,0,OPEN
+Desenho Topográfico,DT,N\D,1,1,,3.0,0,OPEN
+Análise e Tratamento Estatístico de Dados,ATED,N\D,1,2,,4.0,0,OPEN
+Fundamentos de Matemática II,FMII,N\D,1,2,,4.0,0,OPEN
+Fotogrametria e Deteção  Remota,FDR,N\D,1,2,,7.0,0,OPEN
+Plataformas Open Source,POS,N\D,1,2,,4.0,0,OPEN
+Sistemas de Informação Geográfica I,SIGI,N\D,1,2,,5.0,0,OPEN
+Topografia,Top,N\D,1,2,,6.0,0,OPEN
+Base Dados e Web,BDW,N\D,2,3,,5.0,0,OPEN
+Cadastro,Cad,N\D,2,3,,4.0,0,OPEN
+Planeamento e Ordenamento do Território,POT,N\D,2,3,,5.0,0,OPEN
+Sistemas de Informação Geográfica II,SIGII,N\D,2,3,,6.0,0,OPEN
+Sistemas Globais de Navegação por Satélite,SGNS,N\D,2,3,,5.0,0,OPEN
+Topografia Aplicada,TA,N\D,2,3,,5.0,0,OPEN
+Estágio,EST,N\D,2,4,,30.0,0,OPEN

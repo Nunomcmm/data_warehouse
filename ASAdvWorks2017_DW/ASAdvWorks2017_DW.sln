@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ASAdvWorks2017_DW", "ASAdvWorks2017_DW.dwproj", "{B672F8B9-5189-41B7-AB59-00E9DB607BAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B672F8B9-5189-41B7-AB59-00E9DB607BAA}.Development|Default.ActiveCfg = Development
+		{B672F8B9-5189-41B7-AB59-00E9DB607BAA}.Development|Default.Build.0 = Development
+		{B672F8B9-5189-41B7-AB59-00E9DB607BAA}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FA949BD-060E-4510-91A4-240EA07E794E}
+	EndGlobalSection
+EndGlobal

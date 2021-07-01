@@ -1,0 +1,22 @@
+SELECT 
+	F.Nome
+	,f.[Código do Tipo de Funcionário]
+	,f.[Data de Nascimento]
+	,f.[Localidade]
+	,cc.[Nome] as Concelho
+	,cd.Nome as Distrito
+	,cp.[Nome] as Nacionalidade
+	/*,[NumeroID],*/,
+	tdi.Designacao as TipoID,
+	[Estado Civil] ,
+	[Dependentes],
+	[Sexo],
+	[Código do Gabinete],
+	[Extensão Telefónica]
+
+ FROM RH.Funcionário as F
+ Inner Join Comum.Concelhos as CC ON cc.Codigo = f.CodigoConcelho
+	Inner Join Comum.Distritos as cd ON cd.CodDistrito = f.CodigoDistrito
+	Inner Join comum.Paises as cp ON cp.CodPais = f.CodigoNacionalidade
+	Inner Join comum.TipoDocIdent as tdi ON tdi.CodTipoIdent = f.CodigoTipoDocumentoIdentificacao
+WHERE [Código do Tipo de Funcionário] = 1

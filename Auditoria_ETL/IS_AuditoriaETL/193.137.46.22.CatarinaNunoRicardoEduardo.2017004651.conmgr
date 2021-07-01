@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="193.137.46.22.CatarinaNunoRicardoEduardo.2017004651"
+  DTS:DTSID="{46731BFC-3C0B-47F4-B5F3-3FE646EF46AB}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=193.137.46.22;User ID=201700465;Initial Catalog=CatarinaNunoRicardoEduardo;Persist Security Info=True;Application Name=SSIS-IS_AulaETL-{46731BFC-3C0B-47F4-B5F3-3FE646EF46AB}193.137.46.22.CatarinaNunoRicardoEduardo.2017004651;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjVN/O6aBiU+eEU1nBOEKAwAAAAACAAAAAAAQZgAAAAEAACAAAACIygEv3q0GjcUXjEIDF11d2g5SDPOhWKYYLvIYfnwZfAAAAAAOgAAAAAIAACAAAABEh/HxjHPA68Rad46RD55YD8H7bzwl/qU8OfbfIQrBfYAAAADdyBH9QBgzndAnlnwO5yvTlNgqPauZGx0gaULiZn9Nz8Y288gl77OOhDq90OZihX0EqjXgYbZT0HKUmiGeIQZyrKcFISGoyHtOzxQRoTNYV+fw+e8dHKsreUccxWgDrZAs/FxFWWIRPjvu/a4gnZg7+Bf8Z34oVG4AOeI2iPDyvkAAAADTjRjoNB3GrsX+v7qpbWRvU29Imax0YigC0H50V9IT73F5pq5WQZvyM1dnyPUAMx3sV4kXL2v/tZqm5nlV2A62</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

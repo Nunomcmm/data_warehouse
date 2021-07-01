@@ -1,0 +1,49 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2017</Id>
+            <Name>Adventure Works DW2017</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALhqvQYyYH0e1oUKq6k0NqgAAAAAuAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEANwAAABBmAAAAAQAAIAAAAELpVf7Lejgzllyxzx+ekej9sCyZTm3soWfnP6/G3kNFAAAAAA6AAAAAAgAAIAAAAGMlNC/jsx+Tu50afIm3gL1XzbvJAuR7Cf14bpquV26cIAAAAKED+MiVHKpWODSHOYnW+rih5dB/xCXOJbG1qwuKpM5wQAAAAELTivPY+UIEi10rdeMrtFZMtIKRRkZWPpcOLQDB8SjIIxLapsiM3rGlRTwpywyKTPPrhV3IOGOI0IC9CutxUyc=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2017 1</Id>
+            <Name>Adventure Works DW2017 1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALhqvQYyYH0e1oUKq6k0NqgAAAAAyAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEANwAgADEAAAAQZgAAAAEAACAAAABJFQpX5BLI75nCX1n38KXIjuWFPT4ZMEvsVGyB2ouyBQAAAAAOgAAAAAIAACAAAABmdNaWV3oIPBUExT8Imy9Yj5ryjsKP/dsVNV9HjGeFZSAAAAAtVHc1E++IA37IIE4+PtN+6UaCs8emhqe91WlKQPGB3kAAAADMHv4VLw+9nfhsjHwZzzZqb53KAH5YL84Ui3T17MV7TcA1GZqRGkCe3iHy5KkLjngofFQqUSltS3W3FSc/6Osy</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2017 1 1</Id>
+            <Name>Adventure Works DW2017 1 1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALhqvQYyYH0e1oUKq6k0NqgAAAAA2AAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEANwAgADEAIAAxAAAAEGYAAAABAAAgAAAA04b06cuVj2kG/CuAeQoeLt1xc92TYfhDqWPBpleF9PgAAAAADoAAAAACAAAgAAAA8RA3YarMdTsSsdnLtXwhNrgHQRxNugXTLS9EQvr51EggAAAAQJT2eFqmNkR7Dh1qRfgZm071dv13rIejDGBUxe7qJ8ZAAAAAjx9DPZXTrWhC8za+/dtRTS6Hg5v0s05BUttSVflbEPKBllXdEKoHDZo5eMZ+yMc27SC3p4d6fWbzFFTncuGxTw==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2017</Id>
+            <Name>Adventure Works DW2017</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALhqvQYyYH0e1oUKq6k0NqgAAAAAuAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEANwAAABBmAAAAAQAAIAAAAAZcFuQT/WYl7DK1PcdJI/gFNSp6uuMa0hndOIaerwvVAAAAAA6AAAAAAgAAIAAAALiKVRQuVnZGQbmRQRDKZpmnhWN21p3Gfru3rxf7EsetIAAAAFG9ocW4Ale8c5SQa08fpYQ4GjyyNOmJA8Hk0fGPw4svQAAAAOFlh9XI1P2c2Ir/2BHLh1s1GXgd2hxpbRUxNDg8pOmbsD6dsETKrehp5lsEt88+9C1rxixOc/wEdogyRC/ycPI=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2017 1</Id>
+            <Name>Adventure Works DW2017 1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALhqvQYyYH0e1oUKq6k0NqgAAAAAyAAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEANwAgADEAAAAQZgAAAAEAACAAAAD0vI5pQcot3KeLRYMvGydN8Oglew2+9Jh4ID4iLnQc2AAAAAAOgAAAAAIAACAAAABKyoWSkSC80/DS2zHvALPi5CnT1eB9XfbM+N6M21K5CCAAAADEIHpE/bm29mSGVwEZjYGKxyWvcX8UN8HHZoPrJIcIzkAAAAAVgo5eSkMiPm/nhdznuRfke514AiUqSbC07RNdIPdcZvqRWL1905xOuZ+/Cvt7stgXYDUEL+PPLS7Y68Sjjbxc</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Adventure Works DW2017 1 1</Id>
+            <Name>Adventure Works DW2017 1 1</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALhqvQYyYH0e1oUKq6k0NqgAAAAA2AAAAQQBkAHYAZQBuAHQAdQByAGUAIABXAG8AcgBrAHMAIABEAFcAMgAwADEANwAgADEAIAAxAAAAEGYAAAABAAAgAAAA4/ycH9Bc3MmzFLLWtDLltfnREdSC5Iw82upi3I/DOeUAAAAADoAAAAACAAAgAAAAeceTTwdmbwHRsQ4DPfxbguBDfOOgJY5w9yTPTB4MQbggAAAA4aKSex06Torww7DeqzenBKonksF9J7rwfcItoTuJAX1AAAAA0cKBJa7085q868yYfJcEjKfAfrcYTqn54XxOX+6JJEHUN7g5vmhxn2Yt5Q8cSi1krP/wTn/X2c37TbanA5aKsA==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>DB_SA_TAB</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

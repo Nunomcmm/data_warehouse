@@ -1,0 +1,872 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/4/2020 9:26:17 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DIIPS00"
+  DTS:CreatorName="INTRANET\norberto.albino"
+  DTS:DTSID="{25162F1B-D657-4ED6-9A33-BD8C2B7B2BE0}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.132"
+  DTS:LocaleID="2070"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="172"
+  DTS:VersionGUID="{BE414131-A264-4242-8F26-25B931EEDDA0}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[193.137.46.22.CatarinaNunoRicardoEduardo.201700465]"
+      DTS:CreationName="ADO"
+      DTS:DTSID="{6A823B12-70F4-42EE-83F4-D8CE7F6D658F}"
+      DTS:ObjectName="193.137.46.22.CatarinaNunoRicardoEduardo.201700465">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=193.137.46.22;User ID=201700465;Initial Catalog=CatarinaNunoRicardoEduardo;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjVN/O6aBiU+eEU1nBOEKAwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAiCDnlDiCNT59//RMVSDXg8Vv4Rv8SuVGQXgRaDNSJYAAAAAAOgAAAAAIAACAAAADcr8y9dBwIz3yMMzkgZYljuHmYtSnuLSKYTNK60m77ySAAAAALyjSvdiUIv21na4d+CO3nzXo671BmnrVdNKJJfnVUSkAAAABwZt48kOMXh5mUSqkrOnw24kagwfxRVsJKcbxf3foMD0pJJXnVpUycST9OW04Kiq+j1h0Dzt7h9FXlFs5XnXe6</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[193.137.46.22.CatarinaNunoRicardoEduardo.201700465 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{412CDB66-84A8-4A11-A3B2-04C503C38FDB}"
+      DTS:ObjectName="193.137.46.22.CatarinaNunoRicardoEduardo.201700465 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=193.137.46.22;User ID=201700465;Initial Catalog=CatarinaNunoRicardoEduardo;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjVN/O6aBiU+eEU1nBOEKAwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAACRcxfKx2J/hRVvJsO0BMoIpiuWP9oy9OpgMAoy4mWbgAAAAAOgAAAAAIAACAAAADP/0q8n77TNBxuVaY9JiuWTvoep4fbFhOH8dkMsrc/qyAAAADkekwsW/doj/sEEYKXG7Sm3M73JDrWBkzobbQn8B5up0AAAADUZh6ouoeULmH40dIGhi6YVVcAV9BsQQj6VimorIdTgoUqpS6gUdalM3W3CnoZir8NTiUzwKmS2eX2Ffzkg2ya</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[193.137.46.22.CatarinaNunoRicardoEduardo.2017004651]"
+      DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+      DTS:DTSID="{E2DDC624-96D6-47A8-92C6-EF6DCFCD4A76}"
+      DTS:ObjectName="193.137.46.22.CatarinaNunoRicardoEduardo.2017004651">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=193.137.46.22;User ID=201700465;Initial Catalog=CatarinaNunoRicardoEduardo;Persist Security Info=True;Application Name=SSIS-Package1-{E2DDC624-96D6-47A8-92C6-EF6DCFCD4A76}193.137.46.22.CatarinaNunoRicardoEduardo.2017004651;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjVN/O6aBiU+eEU1nBOEKAwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACkOSBKVH8B9jNEPVrs5cY7WpR7tFPILBGfFsIc2wFaWQAAAAAOgAAAAAIAACAAAAALqnQNpqt7rWi/VNdA0kZyuc3JgvuOuJfJoetpK2aoVyAAAAAZvSfGzHsRSoLr/9kiugfL4COL5F6aYVh0iD/hKGSRvUAAAADE0pmqNX9CeTcrnkowqLKLPuuiNnB2mFVEJyLg10uBd5+23Deanicg50PKGHq1SAzcXJWD0M1/GkxSLwvG8WIx</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[File_Erros.txt]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{BFBB92A9-B471-44F8-95A9-3770FEF07B30}"
+      DTS:ObjectName="File_Erros.txt">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Auditoria_ETL\File_Erros.txt" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões SMTP]"
+      DTS:CreationName="SMTP"
+      DTS:Description="Mail report"
+      DTS:DTSID="{4C9AC2C4-77D1-45D2-9F9D-CCA43D10420E}"
+      DTS:ObjectName="Gerenciador de Conexões SMTP">
+      <DTS:ObjectData>
+        <SmtpConnectionManager
+          ConnectionString="SmtpServer=smtpserver;UseWindowsAuthentication=True;EnableSsl=False;"
+          ConnectByProxy="False" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gerenciador de Conexões SMTP 1]"
+      DTS:CreationName="SMTP"
+      DTS:DTSID="{CFD8E241-2FD2-4F08-BD48-30B762F24EEA}"
+      DTS:ObjectName="Gerenciador de Conexões SMTP 1">
+      <DTS:ObjectData>
+        <SmtpConnectionManager
+          ConnectionString="SmtpServer=smtp.office365.com;UseWindowsAuthentication=True;EnableSsl=False;Timeout=30000;"
+          ConnectByProxy="False" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[INS_Auditoria.txt 1]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{7D925FE9-C922-43DB-BB64-516B0257D6E1}"
+      DTS:ObjectName="INS_Auditoria.txt 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Auditoria_ETL\INS_Auditoria.txt" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Report_Erros.txt]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{D77184B4-4DD9-4D82-94FB-E98EE4AC0830}"
+      DTS:ObjectName="Report_Erros.txt">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Auditoria_ETL\Report_Erros.txt" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="3"
+      DTS:DTSID="{6DDA82E0-23E1-4C70-8EDF-CD61EC3C6FE5}"
+      DTS:ObjectName="Chave_Auditoria">
+      <DTS:Property
+        DTS:DataType="3"
+        DTS:Name="ParameterValue">0</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="3"
+      DTS:DTSID="{317E8201-B1EC-47A0-95C4-92E4A6C01518}"
+      DTS:ObjectName="Chave_AuditPAI">
+      <DTS:Property
+        DTS:DataType="3"
+        DTS:Name="ParameterValue">0</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="3"
+      DTS:DTSID="{F963351D-6342-412A-90E6-2E9CF4419162}"
+      DTS:ObjectName="GUID_Package">
+      <DTS:Property
+        DTS:DataType="3"
+        DTS:Name="ParameterValue">0</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="7"
+      DTS:DTSID="{3108ABDC-2E39-4B90-B3AE-514256CB4CDD}"
+      DTS:ObjectName="Inicio_Processo">
+      <DTS:Property
+        DTS:DataType="7"
+        DTS:Name="ParameterValue">1/8/2021 10:41:34 AM</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{D6704DA3-1F43-41FE-93BF-925B2E2DD2ED}"
+      DTS:ObjectName="Nome_Package">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue"
+        xml:space="preserve"></DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{8DACEDE3-4064-40C9-A159-7B1DC6512966}"
+      DTS:ObjectName="Nome_Utilizador">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue"
+        xml:space="preserve"></DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{AF6DCC06-2E95-4E11-8E6D-3A3A2E59E159}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Chave_Auditoria">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{675A0CF4-D757-452B-846B-63FEA2E0B762}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Chave_AuditPAI">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{47887F28-93E7-45D1-9D80-E319A4C8906C}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Fim_Processo">
+      <DTS:VariableValue
+        DTS:DataType="7">1/8/2021 10:17:42 AM</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{E24178DC-3A0B-46BA-93FE-E11AD1A9AF3B}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="GUID_Package">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{3ED383BB-A607-4719-BDF9-93A0B1482289}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="Inicio_Processo">
+      <DTS:VariableValue
+        DTS:DataType="7">1/8/2021 10:18:18 AM</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{AEC329E6-6C1E-422C-8D0D-F152ACA4F737}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="Nome_Package">
+      <DTS:VariableValue
+        DTS:DataType="8">Pkg_Inicio</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Execute Package DimCurso"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{77A30F73-019A-4B9E-8CAE-1C07019C36CC}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Package DimCurso"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>Pkg_DimCurso.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Chave_AuditPAI</ParameterName>
+            <BindedVariableOrParameterName>User::Chave_Auditoria</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute Package DimData"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{07633D3C-261E-4F9A-B7E8-DEA89B7CBA95}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Package DimData"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>Pkg_DimData.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Chave_AuditPAI</ParameterName>
+            <BindedVariableOrParameterName>User::Chave_Auditoria</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute Package DimDocente"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{384FD9C9-1633-4B54-8A6F-B3D4A1181550}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Package DimDocente"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>Pkg_DimDocente.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Chave_AuditPAI</ParameterName>
+            <BindedVariableOrParameterName>User::Chave_Auditoria</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute Package DimHabilitacaoAcademica"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{A73767C6-FDB0-4B6D-A373-B19DF74EE219}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Package DimHabilitacaoAcademica"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>Pkg_DimHabilitacaoAcademica.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Chave_AuditPAI</ParameterName>
+            <BindedVariableOrParameterName>User::Chave_Auditoria</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute Package DimRegimeContratual"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{611BC8D4-A530-4A97-86CC-C130E429E98D}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Package DimRegimeContratual"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>Pkg_DimRegimeContratual.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Chave_AuditPAI</ParameterName>
+            <BindedVariableOrParameterName>User::Chave_Auditoria</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute Package DimTurma"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{402A8235-362A-4D3C-86D7-FEB44CE078FF}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Package DimTurma"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>Pkg_DimTurma.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Chave_AuditPAI</ParameterName>
+            <BindedVariableOrParameterName>User::Chave_Auditoria</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute Package DimUnidadeCurricular"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{FD919E24-8E8D-43E8-8FDC-AD1AF2A03914}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Package DimUnidadeCurricular"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>Pkg_DimUnidadeCurricular.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Chave_AuditPAI</ParameterName>
+            <BindedVariableOrParameterName>User::Chave_Auditoria</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Execute Package FactDocencia"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Execute Package Task"
+      DTS:DTSID="{7443F7E0-8F89-49E3-B7B2-224D0E793CA3}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Execute Package FactDocencia"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>Pkg_FactDocencia.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Chave_AuditPAI</ParameterName>
+            <BindedVariableOrParameterName>User::Chave_Auditoria</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tarefa Executar SQL"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarefa Executar SQL"
+      DTS:DTSID="{4DE3F5B8-E1F8-4226-B6E0-447EE2A8DED8}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarefa Executar SQL"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{E2DDC624-96D6-47A8-92C6-EF6DCFCD4A76}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="INS_Auditoria.txt 1"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="0"
+            SQLTask:DtsVariableName="User::Chave_Auditoria" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="@Inicio_Processo"
+            SQLTask:DtsVariableName="System::StartTime"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="6"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="@Nome_Package"
+            SQLTask:DtsVariableName="User::Nome_Package"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="16"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="@Nome_Utilizador"
+            SQLTask:DtsVariableName="System::UserName"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="16"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="@Chave_Auditoria"
+            SQLTask:DtsVariableName="$Package::Chave_Auditoria"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="11"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="@GUID_Package"
+            SQLTask:DtsVariableName="System::VersionGUID"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="16"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tarefa Executar SQL - Report Erros"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarefa Executar SQL"
+      DTS:DTSID="{AB5F9258-A909-4B1E-9B31-37D087CBC55D}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarefa Executar SQL - Report Erros"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{412CDB66-84A8-4A11-A3B2-04C503C38FDB}"
+          SQLTask:SqlStmtSourceType="FileConnection"
+          SQLTask:SqlStatementSource="Report_Erros.txt" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{FA125E5F-E547-47C0-86B8-ECD4210B65B3}"
+      DTS:From="Package\Execute Package DimDocente"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Execute Package DimRegimeContratual" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{1FD298FF-5D09-42BE-BE5A-45ECD0A56618}"
+      DTS:From="Package\Tarefa Executar SQL"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\Execute Package DimDocente" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{2E3BD332-B29C-4027-ABC9-ED8CDCE7DCC3}"
+      DTS:From="Package\Execute Package DimCurso"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Execute Package DimUnidadeCurricular" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 3]"
+      DTS:CreationName=""
+      DTS:DTSID="{F4ED3F4A-82C6-4697-8A61-7E181415EA25}"
+      DTS:From="Package\Execute Package DimRegimeContratual"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 3"
+      DTS:To="Package\Execute Package DimCurso" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 4]"
+      DTS:CreationName=""
+      DTS:DTSID="{6D2ADF88-675B-4573-9F4E-6563304B1D7E}"
+      DTS:From="Package\Execute Package DimUnidadeCurricular"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 4"
+      DTS:To="Package\Execute Package DimTurma" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 5]"
+      DTS:CreationName=""
+      DTS:DTSID="{F276A2E0-38D8-4EE2-B941-774CD099970B}"
+      DTS:From="Package\Execute Package DimTurma"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 5"
+      DTS:To="Package\Execute Package DimHabilitacaoAcademica" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 6]"
+      DTS:CreationName=""
+      DTS:DTSID="{CDB192C4-3BA9-49BB-8C6D-2EBDC3DDE987}"
+      DTS:From="Package\Execute Package DimHabilitacaoAcademica"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 6"
+      DTS:To="Package\Execute Package DimData" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 7]"
+      DTS:CreationName=""
+      DTS:DTSID="{9746AA89-7944-4D59-838D-99C5D7CE7962}"
+      DTS:From="Package\Execute Package DimData"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 7"
+      DTS:To="Package\Execute Package FactDocencia" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 8]"
+      DTS:CreationName=""
+      DTS:DTSID="{58CDFB61-780F-45C8-969D-D91B109DC402}"
+      DTS:From="Package\Execute Package FactDocencia"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 8"
+      DTS:To="Package\Tarefa Executar SQL - Report Erros" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="216,42"
+          Id="Package\Execute Package DimCurso"
+          TopLeft="459,377" />
+        <NodeLayout
+          Size="210,42"
+          Id="Package\Execute Package DimData"
+          TopLeft="797,264" />
+        <NodeLayout
+          Size="228,42"
+          Id="Package\Execute Package DimDocente"
+          TopLeft="455.155835357064,155.034632768658" />
+        <NodeLayout
+          Size="296,42"
+          Id="Package\Execute Package DimHabilitacaoAcademica"
+          TopLeft="748,376" />
+        <NodeLayout
+          Size="276,42"
+          Id="Package\Execute Package DimRegimeContratual"
+          TopLeft="423.298692216089,264.429439008418" />
+        <NodeLayout
+          Size="219,42"
+          Id="Package\Execute Package DimTurma"
+          TopLeft="789,473" />
+        <NodeLayout
+          Size="276,42"
+          Id="Package\Execute Package DimUnidadeCurricular"
+          TopLeft="424,477" />
+        <NodeLayout
+          Size="235,42"
+          Id="Package\Execute Package FactDocencia"
+          TopLeft="792,168" />
+        <NodeLayout
+          Size="182,42"
+          Id="Package\Tarefa Executar SQL"
+          TopLeft="471.333324558205,53.366666776869" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="565.227263786576,197.034632768658">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="0,67.39480623976"
+              Start="0,0"
+              End="0,59.89480623976">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.89480623976" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="565.744579957635,95.366666776869">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="0,59.667965991789"
+              Start="0,0"
+              End="0,52.167965991789">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.167965991789" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="564.5,419">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="0,58"
+              Start="0,0"
+              End="0,50.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 3]"
+          TopLeft="564.149346108044,306.429439008418">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="0,70.570560991582"
+              Start="0,0"
+              End="0,63.070560991582">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,63.070560991582" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 4]"
+          TopLeft="700,496">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="89,0"
+              Start="0,0"
+              End="81.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="81.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 5]"
+          TopLeft="897.25,473">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="0,-55"
+              Start="0,0"
+              End="0,-47.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-47.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 6]"
+          TopLeft="899,376">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="0,-70"
+              Start="0,0"
+              End="0,-62.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-62.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 7]"
+          TopLeft="905.75,264">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="0,-54"
+              Start="0,0"
+              End="0,-46.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-46.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text="Executa o Pkg_DimDocente"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="174,40"
+          Id="6da0e067-9f58-4042-a394-0f6af4102fad"
+          TopLeft="201.090909090909,151.363636363636" />
+        <AnnotationLayout
+          Text="Executa o Pkg_DimRegimeContratual"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="225,40"
+          Id="42ff2dfd-4bf4-41b1-8753-ea09780fb530"
+          TopLeft="184,258.818181818182" />
+        <AnnotationLayout
+          Text="Inserir um registo do Inicio_Processo na tabela auditoria e obter a chave audit que &#xA;vai ser utilizada no processamento de todas as dimensões.&#xA;&#xA;O statement de SQL está embutido na própria tarefa."
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="374,104"
+          Id="45fe468b-c6c8-43fe-b452-4888aa64a1e4"
+          TopLeft="121.298692216089,18.429439008418" />
+        <AnnotationLayout
+          Text="Executa o Pkg_DimCurso"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="160,40"
+          Id="c09195cd-4719-4234-bc2f-79d896edebec"
+          TopLeft="222,378" />
+        <AnnotationLayout
+          Text="Executa o Pkg_DimUnidadeCurricular"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="225,40"
+          Id="0387b7a3-1eb3-484d-b543-5f747dbb427e"
+          TopLeft="187,475" />
+        <AnnotationLayout
+          Text="Executa o Pkg_DimTurma"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="163,40"
+          Id="04efb6b6-3a2c-469a-b6b7-cc65c3e99f9e"
+          TopLeft="1034,484" />
+        <AnnotationLayout
+          Text="Executa o Pkg_DimHabilitacaoAcademica"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="224,56"
+          Id="3a271872-d4ea-4d02-a7e3-dc45bc9d6a9c"
+          TopLeft="1048,367" />
+        <AnnotationLayout
+          Text="Executa o Pkg_DimData"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="154,40"
+          Id="26196dfa-793d-40a7-b20a-0f7af35cd20d"
+          TopLeft="1034,264" />
+        <NodeLayout
+          Size="254,42"
+          Id="Package\Tarefa Executar SQL - Report Erros"
+          TopLeft="775,59" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 8]"
+          TopLeft="905.75,168">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="0,-67"
+              Start="0,0"
+              End="0,-59.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-59.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text="Envia para um flat flate um report dos erros"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="178,60"
+          Id="5b6a37fb-c368-4f93-83e0-a5c28d51236a"
+          TopLeft="1035,58" />
+        <AnnotationLayout
+          Text="Executa o Pkg_FactDocencia"
+          ParentId="Package"
+          FontInfo="{x:Null}"
+          Size="177,60"
+          Id="8d1962fc-1106-4d0b-bcd1-a138580b4a07"
+          TopLeft="1049,166" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="193.137.46.22.CatarinaNunoRicardoEduardo.201700465"
+  DTS:DTSID="{8BD2B77F-0A0B-4A17-BEEE-6DA0735199C1}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=193.137.46.22;User ID=201700465;Initial Catalog=CatarinaNunoRicardoEduardo;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAjVN/O6aBiU+eEU1nBOEKAwAAAAACAAAAAAAQZgAAAAEAACAAAAD6iOmnzL3bWZIU6j+KDurja8sADUsywQCqu1CwXj+sPgAAAAAOgAAAAAIAACAAAADIbX8vepbHwpXZ6FOiVWhxqcVZJJU61aSvgQmHoYxBhYAAAABX2GeZ5+MR5ZFGl6FTM01zJpqV7uDIs3WDdzLTV5tqgN+lfAE/kmufMBelGYyegi9kiKHzrSTFocn7CO/VU3yNzxrI0PZKHph41kSUWt50s0++wd59lzZvAqNAIlYBAN7BblW648OXjgxXnuD2O0PPRMZ/e7J09qZHDu7l57PH0kAAAAAQCrlQDwCkRoEDNkKXD+Wpu6S0EGiCv2tp1kaQtNLk25PeorqboCpziVC1hC2xHzOFaX/tzAWLoCS6u82llTuZ</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

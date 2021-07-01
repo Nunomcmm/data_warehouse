@@ -1,0 +1,13 @@
+UPDATE PDW.Auditoria SET 
+
+Fim_Processo = getdate(),
+Nome_Package = @Nome_Package,
+Registos_Iniciais = @Registos_Iniciais,
+Registos_Finais = @Registos_Finais,
+Num_RegInseridos = @Registos_Finais - @Registos_Iniciais,
+Num_RegExtraidos = @Num_RegExtraidos,
+Registos_Erro = @Registos_Erro,
+Alt_Tipo1 = @Alt_Tipo1,
+Alt_Tipo2 = @Alt_Tipo2
+
+WHERE Chave_Auditoria = @Chave_Auditoria

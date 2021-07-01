@@ -1,0 +1,4 @@
+INSERT INTO [PDW].[Auditoria]([Nome_Utilizador],[Inicio_Processo],[Nome_Package] ,GUID_Package,[Chave_AuditPAI]) 
+VALUES (@Nome_Utilizador,@Inicio_Processo,@Nome_Package,@GUID_Package,@Chave_AuditPAI)
+
+SELECT cast(IDENT_CURRENT( '[PDW].[Auditoria]') AS int) AS Chave_Auditoria
